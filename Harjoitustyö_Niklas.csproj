@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Enterprixe.rouvgadBIM">
+      <HintPath>Assemblies\Enterprixe.rouvgadBIM.dll</HintPath>
+    </Reference>
+    <Reference Include="ValosUITools.Features">
+      <HintPath>Assemblies\ValosUITools.Features.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy $(TargetDir)$(TargetFileName) &quot;$(USERPROFILE)\Documents\Framer\Plugins&quot;&#xD;&#xA;copy $(TargetDir)$(AssemblyName).pdb &quot;$(USERPROFILE)\Documents\Framer\Plugins&quot;" />
+  </Target>
+
+</Project>
