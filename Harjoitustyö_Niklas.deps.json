@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Harjoitustyö_Niklas/1.0.0": {
+        "dependencies": {
+          "Enterprixe.rouvgadBIM": "1.0.0.0",
+          "ValosUITools.Features": "1.0.0.0"
+        },
+        "runtime": {
+          "Harjoitustyö_Niklas.dll": {}
+        }
+      },
+      "Enterprixe.rouvgadBIM/1.0.0.0": {
+        "runtime": {
+          "Enterprixe.rouvgadBIM.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ValosUITools.Features/1.0.0.0": {
+        "runtime": {
+          "ValosUITools.Features.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Harjoitustyö_Niklas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Enterprixe.rouvgadBIM/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValosUITools.Features/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
